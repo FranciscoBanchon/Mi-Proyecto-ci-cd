@@ -1,6 +1,6 @@
 name: Integración Continua
 on:
-    [push, pull_request]
+    [push, workflow_dispatch]
 jobs:
     build:
         runs-on: ubuntu -latest
